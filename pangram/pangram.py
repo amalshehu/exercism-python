@@ -13,7 +13,12 @@ inclusively.
 
 
 def pangram():
-    test =[x for x in range(a,z)]
-    print(test)
+    alpha = []
+    for i in range(ord('a'), ord('n')+1):
+
+        alpha.append((chr(i)))
+    print (alpha)
+
+
 
 pangram()
