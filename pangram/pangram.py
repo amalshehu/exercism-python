@@ -17,7 +17,10 @@ def pangram(string):
     for i in range(ord('a'), ord('n')+1):
         alpha.append((chr(i)))
     string = string.lower()
-    print (string)
+    if i in alpha == item in string:
+        print ("pangram")
+    else:
+        print ("no")
 
 
-pangram("HelloWorld")
+pangram("The quick brown fox jumps over the lazy dog.")
