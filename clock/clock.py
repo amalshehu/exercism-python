@@ -19,6 +19,10 @@ class Clock(object):
                 return obj
         return clk._obj_Inst
 
-    def __init__(self, arg):
-        super(Clock, self).__init__()
-        self.arg = arg
+    def __init__(self, hour, minute):
+
+        self.hour = (hour + (minute / 60)) % 24
+        self.minute = minute % 60
+
+    def __eq__(self, another):
+        return self.hour == another.minute and self.minute == another.minute
