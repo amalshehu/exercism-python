@@ -12,13 +12,12 @@ inclusively.
 #  Date:       Thursday 1st September 2016, 10:30 AM
 
 
-def pangram():
+def pangram(string):
     alpha = []
     for i in range(ord('a'), ord('n')+1):
-
         alpha.append((chr(i)))
-    print (alpha)
+    string = string.lower()
+    print (string)
 
 
-
-pangram()
+pangram("HelloWorld")
