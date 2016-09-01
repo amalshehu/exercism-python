@@ -9,7 +9,7 @@ Want to be a serious programmer? Try it...
 - [x] Leap
 - [x] Clock
 - [x] Pangram
-- [ ] Rna Transcription
+- [x] Rna Transcription
 - [ ] Hamming
 - [ ] Word Count
 - [ ] Gigasecond
