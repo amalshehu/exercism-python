@@ -29,3 +29,6 @@ class Clock(object):
 
     def __str__(self):
         return "{0:0d}:{1:0d}".format(self.hour,self.minute)
+
+    def add(self, minute_x):
+        return Clock(self.hour,self.minute + minute_x)
