@@ -9,15 +9,15 @@
 #  Date:       Thursday 1st September 2016, 10:30 AM
 
 
-class Clock(object):
-    """docstring for Clock."""
-    objectz = []
+class Clock():
+    
+    _objecx = []
 
     def __new__(clk, hour, minute):
-        for obj in objectz:
-            if clk.objectz == obj:
-                return obj
-        return clk._obj_Inst
+        for objec in _objecx:
+            if clk.obj == objec:
+                return objec
+        return clk.obj
 
     def __init__(self, hour, minute):
 
