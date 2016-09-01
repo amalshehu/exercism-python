@@ -11,7 +11,14 @@
 
 class Clock(object):
     """docstring for Clock."""
+    objectz = []
+
+    def __new__(clk, hour, minute):
+        for obj in objectz:
+            if clk.objectz == obj:
+                return obj
+        return clk._obj_Inst
+
     def __init__(self, arg):
         super(Clock, self).__init__()
         self.arg = arg
-        
