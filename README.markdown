@@ -7,7 +7,8 @@ Want to be a serious programmer? Try it...
 
 - [x] Hello World
 - [x] Leap
-- [ ] Clock
+- [x] Clock
+- [ ] Pangram
 - [ ] Rna Transcription
 - [ ] Hamming
 - [ ] Word Count
