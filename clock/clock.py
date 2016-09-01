@@ -26,3 +26,6 @@ class Clock(object):
 
     def __eq__(self, another):
         return self.hour == another.minute and self.minute == another.minute
+
+    def __str__(self):
+        return "{0:0d}:{1:0d}".format(self.hour,self.minute)
