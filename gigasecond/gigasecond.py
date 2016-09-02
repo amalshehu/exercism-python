@@ -9,7 +9,8 @@ from datetime import timedelta, datetime
 
 def add_gigasecond(date):
 
-# A timedelta object represents a duration, the difference between two dates or times.
+    # A timedelta object represents a duration, the difference between
+    # two dates or times.
     delta = timedelta(seconds=10**9)
     print (date + delta)
 
