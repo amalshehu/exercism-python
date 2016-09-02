@@ -6,14 +6,17 @@
 
 
 def hey(what):
-    if what is None or what.strip() == " ":
-        return ("Fine. Be that way")
 
-    if what.endswith('?'):
-        return ("Sure")
-
-    if what.isupper() and what.isalnum:
-
+    if what.isupper():
         return "Whoa, chill out!"
 
-    return ("Whatever")
+    if what.strip() == "":
+        return ("Fine. Be that way!")
+
+    if what.endswith('?'):
+        return ("Sure.")
+
+    if what.endswith(' ') and '?' in what:
+        return ("Sure.")
+    else:
+        return ("Whatever.")
