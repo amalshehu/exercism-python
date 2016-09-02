@@ -10,7 +10,7 @@ Want to be a serious programmer? Try it...
 - [x] Clock
 - [x] Pangram
 - [x] Rna Transcription
-- [ ] Hamming
+- [x] Hamming
 - [ ] Word Count
 - [ ] Gigasecond
 - [ ] Bob
