@@ -6,10 +6,8 @@
 
 
 def word_count(words):
-
-    split = words.split()
-    print (split)
-    for x in split:
-        c = split.count(x)
-        print (x, c)
+    word = words.split()
+    w = set(word)
+    for x in w:
+        print (x, word.count(x))
 word_count("olly olly in come free")
