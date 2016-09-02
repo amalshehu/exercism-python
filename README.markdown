@@ -14,7 +14,7 @@ Want to be a serious programmer? Try it...
 - [x] Word Count
 - [x] Gigasecond
 - [x] Bob
-- [ ] Running Length Encoding
+- [x] Running Length Encoding
 - [ ] Meetup
 - [ ] Difference of squares
 - [ ] Anagram
