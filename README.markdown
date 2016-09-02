@@ -13,7 +13,7 @@ Want to be a serious programmer? Try it...
 - [x] Hamming
 - [x] Word Count
 - [x] Gigasecond
-- [ ] Bob
+- [x] Bob
 - [ ] Running Length Encoding
 - [ ] Meetup
 - [ ] Difference of squares
