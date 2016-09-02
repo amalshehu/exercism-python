@@ -11,8 +11,13 @@ Want to be a serious programmer? Try it...
 - [x] Pangram
 - [x] Rna Transcription
 - [x] Hamming
-- [ ] Word Count
-- [ ] Gigasecond
+- [x] Word Count
+- [x] Gigasecond
 - [ ] Bob
+- [ ] Running Length Encoding
+- [ ] Meetup
+- [ ] Difference of squares
+- [ ] Anagram
+- [ ] Allergies
 
 ...more
