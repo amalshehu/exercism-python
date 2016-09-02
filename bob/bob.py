@@ -7,16 +7,15 @@
 
 def hey(what):
 
+    what = what.strip()
+
     if what.isupper():
         return "Whoa, chill out!"
 
-    if what.strip() == "":
+    if what == "":
         return ("Fine. Be that way!")
 
-    if what.endswith('?'):
-        return ("Sure.")
-
-    if what.endswith(' ') and '?' in what:
+    if what[-1] == '?' in what:
         return ("Sure.")
     else:
         return ("Whatever.")
