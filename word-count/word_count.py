@@ -4,5 +4,12 @@
 #  Course:     Exercism
 #  Date:       Friday 2nd September 2016, 10:15 AM
 
-def word_count():
-    
+
+def word_count(words):
+
+    split = words.split()
+    print (split)
+    for x in split:
+        c = split.count(x)
+        print (x, c)
+word_count("olly olly in come free")
