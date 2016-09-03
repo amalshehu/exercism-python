@@ -1,7 +1,6 @@
 # Exercism python programs
-![Alt](/log.png "Exercism")
-
-## exercism.io
+ ![Alt](/log.png "Exercism")
+### exercism.io
 
 
 
@@ -12,7 +11,7 @@
 ![Progress](http://progressed.io/bar/21?title=Progress)
 ##### General status of exercism problems.
 
-| Project Name                        | Status                                    | Technology  | Level    |  Date            |
+| Problem Name                        | Status                                    | Language    | Level    |  Date            |
 | ----------------------------------- |:-----------------------------------------:| ----------- | :------: |  :--------:      |
 | Hello World                         | ![Progress](http://progressed.io/bar/100) | Python      | Low      |August 25,2016    |
 | Leap                                | ![Progress](http://progressed.io/bar/100) | Python      | Low      |August 25,2016    |
@@ -27,4 +26,5 @@
 | Meetup                              | ![Progress](http://progressed.io/bar/100) | Python      | __High__ |September 03,2016 |
 | Difference of squares               | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Anagram                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
-| Allergies                           | ![Progress](http://progressed.io/bar/10)  | Python      | Low      |September 03,2016 |
+| Allergies                           | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
+| Series                              | ![Progress](http://progressed.io/bar/25)  | Python      | Low      |September 03,2016 |
