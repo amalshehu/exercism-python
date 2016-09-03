@@ -7,8 +7,16 @@
 import calendar
 from datetime import date
 
+dayNames = [day for day in calendar.day_name]
+
 
 def meetup_day(m_Year, m_Month, weekDay, specWeekday):
-    lastDay = calendar.monthrange(year, month)[1]
-    print(lastDay)
-    weekDay_dict = {'Monday': 0, 'Tuesday': 1, 'Wednesday': 2, 'Thursday': 3, 'Friday': 4, 'Saturday': 5, 'Sunday': 6}
+    dayIndex =  dayNames.index(weekDay)
+    chanceDate = [week[dayIndex]]
+    for week in calendar.monthcalendar(m_Year, m_Month)
+    if week[dayIndex]]
+
+    if specWeekday == 'teenth':
+        for dayNum in chanceDate:
+            if 13<= dayNum <= 19:
+                return date(m_Year, m_Month, dayNum)
