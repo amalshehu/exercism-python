@@ -6,11 +6,10 @@
 
 
 def detect_anagrams(string_1, string_2):
-    str1List = list(string_1)
-    str1List = [element.lower() for element in str1List]
-    str1List.sort()
-    str2List = list(string_2)
-    str2List = [element.upper() for element in str2List]
-    str2List.sort()
+    string_sort = sorted(string_1.lower())
+    gram_list = []
+    for item in string_2:
+        if sorted(item.lower()) == string_sort and item.lower() != string_1.lower():
+            gram_list.append(item)
 
-    return (str1List == str2List)
+    return gram_list
