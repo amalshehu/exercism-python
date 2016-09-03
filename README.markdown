@@ -7,7 +7,7 @@
 ###### Want to be a serious programmer? Try it...
 
 
-![Progress](http://progressed.io/bar/21?title=Progress)
+![Progress](http://progressed.io/bar/25?title=Progress)
 ##### General status of exercism problems.
 
 | Problem Name                        | Status                                    | Language    | Level    |  Date            |
@@ -26,4 +26,7 @@
 | Difference of squares               | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Anagram                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Allergies                           | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 03,2016 |
-| Series                              | ![Progress](http://progressed.io/bar/40)  | Python      | Low      |September 03,2016 |
+| Series                              | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 03,2016 |
+| Robot Simulator                     | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 04,2016 |
+| Sieve                               | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 04,2016 |
+| Atbash Cipher                       | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 04,2016 |
