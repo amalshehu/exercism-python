@@ -27,4 +27,3 @@
 | Difference of squares               | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Anagram                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Allergies                           | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
-| Series                              | ![Progress](http://progressed.io/bar/25)  | Python      | Low      |September 03,2016 |
