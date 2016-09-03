@@ -3,21 +3,25 @@
 
 
 
-Want to be a serious programmer? Try it...
+###### Want to be a serious programmer? Try it...
 
-- [x] Hello World
-- [x] Leap
-- [x] Clock
-- [x] Pangram
-- [x] Rna Transcription
-- [x] Hamming
-- [x] Word Count
-- [x] Gigasecond
-- [x] Bob
-- [x] Running Length Encoding
-- [ ] Meetup
-- [ ] Difference of squares
-- [ ] Anagram
-- [ ] Allergies
 
-...more
+
+### General status of exercism problems.
+
+| Project Name                        | Status                                    | Technology  | Level    |  Date            |
+| ----------------------------------- |:-----------------------------------------:| ----------- | :------: |  :--------:      |
+| Hello World                         | ![Progress](http://progressed.io/bar/100) | Python      | Low      |August 25,2016    |
+| Leap                                | ![Progress](http://progressed.io/bar/100) | Python      | Low      |August 25,2016    |
+| Clock                               | ![Progress](http://progressed.io/bar/100) | Python      | __High__ |September 01,2016 |
+| Pangram                             | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 01,2016 |
+| Rna Transcription                   | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 01,2016 |
+| Hamming                             | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 01,2016 |
+| Word Count                          | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 02,2016 |
+| Gigasecond                          | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 02,2016 |
+| Bob                                 | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 02,2016 |
+| Running Length Encoding             | ![Progress](http://progressed.io/bar/100) | Python      | __High__ |September 02,2016 |
+| Meetup                              | ![Progress](http://progressed.io/bar/100) | Python      | __High__ |September 03,2016 |
+| Difference of squares               | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
+| Anagram                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
+| Allergies                           | ![Progress](http://progressed.io/bar/10)  | Python      | Low      |September 03,2016 |
