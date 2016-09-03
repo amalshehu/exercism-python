@@ -1,5 +1,6 @@
 # Exercism python programs
-![Alt](/log.png = 200px "Exercism")
+![Alt](/log.png "Exercism")
+
 ## exercism.io
 
 
