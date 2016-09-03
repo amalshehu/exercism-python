@@ -6,13 +6,8 @@
 #  Date:       Saturday 3rd September 2016, 10:50 PM
 
 
-def series(number, sub_len):
-    num_list = [x for x in number]
-
-    for i in range(1, len(num_list)):
-
-
-        print (i)
-
-
-series(2345, 2)
+def slices(number, leng):
+    numbers = [int(item) for item in number]
+    if not 1 <= leng <= len(numbers):
+        raise ValueError(" Slice length Error : " + str(leng))
+    return [numbers[i:i + leng] for i in range(len(numbers) - leng + 1)]
