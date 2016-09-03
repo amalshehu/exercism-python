@@ -1,5 +1,5 @@
 # Exercism python programs
-(exercism.io)
+###### exercism.io
 
 
 
@@ -7,6 +7,7 @@
 
 
 
+![Progress](http://progressed.io/bar/21?title=Progress)
 ##### General status of exercism problems.
 
 | Project Name                        | Status                                    | Technology  | Level    |  Date            |
