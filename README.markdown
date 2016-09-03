@@ -27,4 +27,4 @@
 | Meetup                              | ![Progress](http://progressed.io/bar/100) | Python      | __High__ |September 03,2016 |
 | Difference of squares               | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Anagram                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
-| Allergies                           | ![Progress](http://progressed.io/bar/10)  | Python      | Low      |September 03,2016 |
+| Allergies                           | ![Progress](http://progressed.io/bar/100)  | Python      | Low      |September 03,2016 |
