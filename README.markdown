@@ -27,6 +27,6 @@
 | Anagram                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 03,2016 |
 | Allergies                           | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 03,2016 |
 | Series                              | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 03,2016 |
-| Robot Simulator                     | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 04,2016 |
+| Robot Simulator                     | ![Progress](http://progressed.io/bar/10)   | Python      | Low      |September 04,2016 |
 | Sieve                               | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 04,2016 |
 | Atbash Cipher                       | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 04,2016 |
