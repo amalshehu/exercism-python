@@ -16,4 +16,8 @@ def distance(dna1, dna2):
     for h1, h2 in zip(dna1, dna2):
         if h1 != h2:
             hamm += 1
-    return hamm
+    print(h1)
+    print(h2)        
+    print (hamm)
+
+distance("GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT")
