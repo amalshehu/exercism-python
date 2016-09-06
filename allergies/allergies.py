@@ -20,8 +20,7 @@ class Allergies:
 
     def __init__(self, score):
         self.score = score
-        self.lst = list(item for item in self.allergy_score if
-                        self.is_allergic_to(item))
+        self.lst = list(item for item in self.allergy_score if self.is_allergic_to(item))
 
     def is_allergic_to(self, allergens):
         return self.allergy_score[allergens] & self.score
