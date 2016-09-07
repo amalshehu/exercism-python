@@ -6,5 +6,5 @@
 #  Date:       Wednesday 7th September 2016, 11:00 PM
 
 
-def sum_of_multiples(limit, *div_list):
-    return sum((i for i in xrange(limit) if 0 in (i % d for d in div_list)))
+def sum_of_multiples(limit, div_list):
+    return sum(set(j for i in div_list if i > 0 for j in range(i, limit, i)))
