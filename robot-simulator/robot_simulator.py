@@ -13,27 +13,27 @@ WEST = 3
 class Robot:
 
     """docstring for Robot."""
-    def __init__(self, front = NORTH, x_axis = 0, y_axis = 0):
+    def __init__(self, bearing = NORTH, x_axis = 0, y_axis = 0):
 
         self.coordinates = (x_axis, y_axis)
-        self.front = front
+        self.bearing = bearing
 
     def advance(self):
         x_axis, y_axis = self.coordinates[0], self.coordinates[1]
-        if self.front == NORTH:
+        if self.bearing == NORTH:
             self.coordinates = x_axis, y_axis+1
-        elif self.front == EAST:
+        elif self.bearing == EAST:
             self.coordinates = x_axis+1, y_axis
-        elif self.front == SOUTH:
+        elif self.bearing == SOUTH:
             self.coordinates = x_axis, y_axis-1
-        elif self.front == WEST:
+        elif self.bearing == WEST:
             self.coordinates = x_axis-1,y_axis
 
     def left(self):
-        self.front = (self.front-1) % 4
+        self.bearing = (self.bearing-1) % 4
 
     def right(self):
-        self.front = (self.front + 1) % 4
+        self.bearing = (self.bearing + 1) % 4
 
     def simulate(self, move):
         for i in move:
