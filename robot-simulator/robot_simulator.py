@@ -15,19 +15,19 @@ class Robot:
     """docstring for Robot."""
     def __init__(self, front = NORTH, x_axis = 0, y_axis = 0):
 
-        self.counterpart = (x_axis, y_axis)
+        self.coordinates = (x_axis, y_axis)
         self.front = front
 
     def advance(self):
-        x_axis, y_axis = self.counterpart[0], self.counterpart[1]
+        x_axis, y_axis = self.coordinates[0], self.coordinates[1]
         if self.front == NORTH:
-            self.counterpart = x_axis, y_axis+1
+            self.coordinates = x_axis, y_axis+1
         elif self.front == EAST:
-            self.counterpart = x_axis+1, y_axis
+            self.coordinates = x_axis+1, y_axis
         elif self.front == SOUTH:
-            self.counterpart = x_axis, y_axis-1
+            self.coordinates = x_axis, y_axis-1
         elif self.front == WEST:
-            self.counterpart = x_axis-1,y_axis
+            self.coordinates = x_axis-1,y_axis
 
     def left(self):
         self.front = (self.front-1) % 4
