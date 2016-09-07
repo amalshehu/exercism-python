@@ -31,3 +31,4 @@
 | Sieve                               | ![Progress](http://progressed.io/bar/90)  | Python      | Low      |September 07,2016 |
 | Atbash Cipher                       | ![Progress](http://progressed.io/bar/83)  | Python      | Low      |September 07,2016 |
 | Sum of multiples                    | ![Progress](http://progressed.io/bar/30)  | Python      | Low      |September 07,2016 |
+| Acronym                             | ![Progress](http://progressed.io/bar/0)   | Python      | Low      |September 07,2016 |
