@@ -30,3 +30,4 @@
 | Robot Simulator                     | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 04,2016 |
 | Sieve                               | ![Progress](http://progressed.io/bar/90)  | Python      | Low      |September 07,2016 |
 | Atbash Cipher                       | ![Progress](http://progressed.io/bar/83)  | Python      | Low      |September 07,2016 |
+| Sum of multiples                    | ![Progress](http://progressed.io/bar/30)  | Python      | Low      |September 07,2016 |
