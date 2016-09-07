@@ -3,3 +3,13 @@
 #  Programmer: Amal Shehu
 #  Course:     Exercism
 #  Date:       Thursday 3rd September 2016, 09:15 PM
+
+
+def prime(limit):
+    num = []
+    for x in range(2, limit+1):
+        num.append(x)
+
+    return num
+
+print (prime(100))
