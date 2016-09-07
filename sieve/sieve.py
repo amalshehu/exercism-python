@@ -5,11 +5,13 @@
 #  Date:       Thursday 3rd September 2016, 09:15 PM
 
 
-def prime(limit):
-    num = []
+def sieve(limit):
+    num_sq = []
     for x in range(2, limit+1):
-        num.append(x)
+        if x not in num_sq:
+            print (x)
+            for y in range(x*x, limit+1, x):
+                num_sq.append(y)
 
-    return num
 
-print (prime(100))
+print (sieve(10))
