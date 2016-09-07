@@ -24,4 +24,17 @@
     def right(Robot):
         x_axis += 1
 
-    
+    def instruction(Robot, move):
+        if move == "A":
+            super advance(x_axis, y_axis)
+        elif move == "AA":
+            super advance_twice(x_axis, y_axis)
+
+        elif move == "R":
+            super right(x_axis, y_axis)
+
+        elif move == "L":
+            super left(x_axis, y_axis)
+
+asimo = Robot
+asimo.instruction(x, y)
