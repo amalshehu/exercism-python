@@ -5,5 +5,12 @@
 #  Date:       Thursday 3rd September 2016, 09:15 PM
 
 
-def atbash_cipher():
-    
+def atbash_cipher(string):
+    alpha = "abcdefghijklmnopqrstuvwxyz"
+    rev = list(alpha)[::-1]
+    store = dict(zip(alpha, rev))
+    print (store)
+
+
+
+atbash_cipher("abcd")
