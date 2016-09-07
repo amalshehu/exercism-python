@@ -12,8 +12,8 @@ WEST = 3
 
 class Robot:
 
-    """docstring for Robot."""
-    def __init__(self, bearing = NORTH, x_axis = 0, y_axis = 0):
+    """docstring for Robot simulator."""
+    def __init__(self, bearing=NORTH, x_axis=0, y_axis=0):
 
         self.coordinates = (x_axis, y_axis)
         self.bearing = bearing
@@ -27,19 +27,19 @@ class Robot:
         elif self.bearing == SOUTH:
             self.coordinates = x_axis, y_axis-1
         elif self.bearing == WEST:
-            self.coordinates = x_axis-1,y_axis
+            self.coordinates = x_axis-1, y_axis
 
-    def left(self):
+    def turn_left(self):
         self.bearing = (self.bearing-1) % 4
 
-    def right(self):
+    def turn_right(self):
         self.bearing = (self.bearing + 1) % 4
 
     def simulate(self, move):
         for i in move:
-    		if i == 'R':
-    			self.right()
-    		elif i == 'L':
-    			self.left()
-    		elif i == 'A':
-    			self.advance()
+            if i == 'R':
+                self.turn_right()
+            elif i == 'L':
+                self.turn_left()
+            elif i == 'A':
+                self.advance()
