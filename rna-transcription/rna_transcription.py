@@ -7,12 +7,8 @@
 
 
 def to_rna(dna):
-    dna = list(dna)
-    data = {"G": "C", "C": "G", "T": "A", "A": "U", "U": "A"}
-    rna = []
+    data = {"G": "C", "C": "G", "T": "A", "A": "U"}
+    rna = ""
     for d in dna:
-        if d == d in data:
-            rna.append(data[d])
-    print("".join(str(x) for x in rna))
-
-to_rna("GCTAU")
+        rna += data[d]
+    return rna
