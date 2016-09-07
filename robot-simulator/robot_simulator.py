@@ -4,37 +4,42 @@
 #  Course:     Exercism
 #  Date:       Thursday 3rd September 2016, 05:00 PM
 
-.class Robot(object):
+NORTH = 0
+EAST = 1
+SOUTH = 2
+WEST = 3
+
+
+class Robot:
+
     """docstring for Robot."""
-    def __init__(self,movement, x, y):
+    def __init__(self, front = NORTH, x_axis = 0, y_axis = 0):
 
-        self.movement = movement
-        self.x = x_axis = 0
-        self.y = y_axis = 0
+        self.counterpart = (x_axis, y_axis)
+        self.front = front
 
-    def advance(Robot):
-        x_axis += 1
+    def advance(self):
+        x_axis, y_axis = self.counterpart[0], self.counterpart[1]
+        if self.front == NORTH:
+            self.counterpart = x_axis, y_axis+1
+        elif self.front == EAST:
+            self.counterpart = x_axis+1, y_axis
+        elif self.front == SOUTH:
+            self.counterpart = x_axis, y_axis-1
+        elif self.front == WEST:
+            self.counterpart = x_axis-1,y_axis
 
-    def advance_twice(Robot):
-        x_axis += 2
+    def left(self):
+        self.front = (self.front-1) % 4
 
-    def left(Robot):
-        x_axis -= 1
+    def right(self):
+        self.front = (self.front + 1) % 4
 
-    def right(Robot):
-        x_axis += 1
-
-    def instruction(Robot, move):
-        if move == "A":
-            super advance(x_axis, y_axis)
-        elif move == "AA":
-            super advance_twice(x_axis, y_axis)
-
-        elif move == "R":
-            super right(x_axis, y_axis)
-
-        elif move == "L":
-            super left(x_axis, y_axis)
-
-asimo = Robot
-asimo.instruction(x, y)
+    def simulate(self, move):
+        for i in move:
+    		if i == 'R':
+    			self.right()
+    		elif i == 'L':
+    			self.left()
+    		elif i == 'A':
+    			self.advance()
