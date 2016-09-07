@@ -7,11 +7,10 @@
 
 def sieve(limit):
     num_sq = []
+    prime = set()
     for x in range(2, limit+1):
-        if x not in num_sq:
-            print (x)
-            for y in range(x*x, limit+1, x):
-                num_sq.append(y)
-
-
-print (sieve(10))
+        if x not in prime:
+            for y in range(x, limit+1, x):
+                prime.add(y)
+            num_sq.append(x)
+    return num_sq
