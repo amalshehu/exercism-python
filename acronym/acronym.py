@@ -7,6 +7,7 @@
 
 def abbreviate(words):
     out = ""
-    for word in words.upper().split():
+    for word in words.replace('-', ' ').split(' '):
         out += (word[0])
-    print (out)
+    print (out.upper())
+abbreviate("Complementary metal-oxide semiconductor")
