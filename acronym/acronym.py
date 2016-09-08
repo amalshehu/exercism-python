@@ -7,9 +7,9 @@ import re
 
 
 def abbreviate(words):
-    out = ""
+    out = []
     for word in re.findall(r"[A-Z]+[a-z]*|[a-z]+", words):
         out.append(word[0].upper())
     return "".join(out)
 
-abbreviate("HyperText Markup Language")
+print (abbreviate("HyperText Markup Language"))
