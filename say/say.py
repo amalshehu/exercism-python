@@ -16,6 +16,8 @@ def say(num):
           50: 'fifty', 60: 'sixty', 70: 'seventy', 80: 'eighty',
           90: 'ninty'}
 
+    assert(0 <= num)  # Test that condition, and trigger an error if is false.
+
     if (num < 20):
         return num_dict[num]
 
@@ -24,3 +26,4 @@ def say(num):
             return num_dict[num]
         else:
             return num_dict[num // 10 * 10] + '-' + num_dict[num % 10]
+# #### Step 2
