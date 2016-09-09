@@ -29,7 +29,7 @@
 | Series                              | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 03,2016 |
 | Robot Simulator                     | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 04,2016 |
 | Sieve                               | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 07,2016 |
-| Atbash Cipher                       | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 07,2016 |
+| Atbash Cipher                       | ![Progress](http://progressed.io/bar/83)  | Python      | Low      |September 07,2016 |
 | Sum of multiples                    | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 07,2016 |
 | Acronym                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 08,2016 |
-| Say                                 | ![Progress](http://progressed.io/bar/10)  | Python      | Low      |September 08,2016 |
+| Say                                 | ![Progress](http://progressed.io/bar/55)  | Python      | High     |September 08,2016 |
