@@ -7,7 +7,7 @@
 ###### Want to be a serious programmer? Try it...
 
 
-![Progress](http://progressed.io/bar/31?title=Progress)
+![Progress](http://progressed.io/bar/36?title=Progress)
 ##### General status of exercism problems.
 
 | Problem Name                        | Status                                    | Language    | Level    |  Date            |
@@ -32,4 +32,6 @@
 | Atbash Cipher                       | ![Progress](http://progressed.io/bar/83)  | Python      | Low      |September 07,2016 |
 | Sum of multiples                    | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 07,2016 |
 | Acronym                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 08,2016 |
-| Say                                 | ![Progress](http://progressed.io/bar/55)  | Python      | High     |September 08,2016 |
+| Say                                 | ![Progress](http://progressed.io/bar/60)  | Python      | High     |September 08,2016 |
+| Largest series product              | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 09,2016 |
+| Kindergarten Garden                 | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |September 10,2016 |
