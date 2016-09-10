@@ -13,7 +13,7 @@ def largest_product(num, size):
 
 
 def num_filter(num, size):
-    if len(num) > size or num == re.match(r'^[0-9]*$'), num):
+    if len(re.sub("[^0-9]+", "", num)) != len(num) or size > len(num) or size < 0:
         raise ValueError
     return single(map(int, list(num)), size)
 
