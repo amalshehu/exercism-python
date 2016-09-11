@@ -23,3 +23,6 @@ class Garden(object):
         test_cup = (self.cup_row[0][cup] + self.cup_row[1][cup])
         plant = [self.plant_names[item] for item in test_cup]
         return plant
+
+garden = Garden("VRCGVVRVCGGCCGVRGCVCGCGV\nVRCCCGCRRGVCGCRVVCVGCGCV")
+print (garden.plants("Alice"))
