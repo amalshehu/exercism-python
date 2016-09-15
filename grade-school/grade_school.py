@@ -6,10 +6,14 @@
 
 class School(object):
     """docstring for School."""
+    students = {}
     def __init__(self, school, grade, student):
         self.school = school
         self.grade = grade
         self.student = student
-        self.students = students[]
 
-    
+    def add(self, student, grade):
+
+        for student, grade in students.items():
+            for s, g in values.items():
+                
