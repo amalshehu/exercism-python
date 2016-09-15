@@ -34,4 +34,5 @@
 | Acronym                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 08,2016 |
 | Say                                 | ![Progress](http://progressed.io/bar/60)  | Python      | High     |September 08,2016 |
 | Largest series product              | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 09,2016 |
-| Kindergarten Garden                 | ![Progress](http://progressed.io/bar/100) | Python      | ----     |September 10,2016 |
+| Kindergarten Garden                 | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 10,2016 |
+| Grade School                        | ![Progress](http://progressed.io/bar/25)  | Python      | Medium   |September 13,2016 |
