@@ -4,16 +4,14 @@
 #  Course:     Exercism
 #  Date:       Monday 12th September 2016, 11:00 PM
 
+from collections import defaultdict
+
+
 class School(object):
     """docstring for School."""
-    students = {}
-    def __init__(self, school, grade, student):
-        self.school = school
-        self.grade = grade
-        self.student = student
+    def __init__(self, name):
+        self.name = name
+        self.data = defaultdict(set)
 
     def add(self, student, grade):
-
-        for student, grade in students.items():
-            for s, g in values.items():
-                
+        self.data[grade].add(student)
