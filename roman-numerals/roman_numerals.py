@@ -10,7 +10,7 @@ numerals = tuple(zip(
 ))
 
 
-def roman_numerals(num):
+def numeral(num):
     roman = []
     for number, numeral in numerals:
         swing = num // number
