@@ -59,4 +59,4 @@ def say(num):
 
     raise AssertionError('Out of range: %s' % str(num))
 
-print say(1234567)
+print (say(1234567))
