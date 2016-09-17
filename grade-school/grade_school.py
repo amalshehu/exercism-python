@@ -18,4 +18,6 @@ class School(object):
     def grade(self, stage):
         return self.data[stage]
 
-    
+    def sort(self):
+        return sorted((grade, tuple(sorted(students)))
+                      for grade, students in self.data.items())
