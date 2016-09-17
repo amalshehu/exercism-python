@@ -15,3 +15,7 @@ class School(object):
 
     def add(self, student, grade):
         self.data[grade].add(student)
+    def grade(self, stage):
+        return self.data[stage]
+
+    
