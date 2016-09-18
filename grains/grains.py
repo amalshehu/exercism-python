@@ -7,6 +7,10 @@
 
 square = [x for x in range(1, 65)]
 grains = [2 ** x for x in range(0, 65)]
+board = dict(zip(square, grains))
 
-board = zip(square, grains)
-print (board)
+
+print type(board)
+
+for k, v in board.iteritems():
+    print k, v
