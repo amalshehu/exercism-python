@@ -10,7 +10,9 @@ grains = [2 ** x for x in range(0, 65)]
 board = dict(zip(square, grains))
 
 
-print type(board)
+def on_square(num):
+    for k, v in board.iteritems():
+        if k == num:
+            return v
 
-for k, v in board.iteritems():
-    print k, v
+print(on_square(10))
