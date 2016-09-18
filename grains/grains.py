@@ -19,9 +19,12 @@ def on_square(num):
 
 
 def total_after(num):
-    for k, v in board.iteritems():
-        if k == num:
-            total_after = sum(map(board.get, itertools.takewhile(lambda key: key != v, board)))
+    if num == 1:
+        return 1
+    else:
+        for k, v in board.iteritems():
+            if k == num:
+                total_after = sum(map(board.get, itertools.takewhile(lambda key: key != v, board)))
     return total_after
 
 print (board)
