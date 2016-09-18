@@ -7,41 +7,30 @@
 
 
 class SpaceAge(object):
-    """docstring for SpaceAge."""
-    def __init__(self, _seconds):
-        self._seconds = _seconds
-
-    def on_earth(self):
-        return round((self._seconds / 31557600), 2)
+    def __init__(self, age):
+        self._seconds = float(age)
+        self._earth_year = 31557600
 
     def on_mercury(self):
-        planet = self.on_earth() * 0.2408467
-        return planet
+        return round(self._seconds / self._earth_year / 0.2408467, 2)
 
     def on_venus(self):
-        planet = self.on_earth() * 0.61519726
-        return planet
+        return round(self._seconds / self._earth_year / 0.61519726, 2)
+
+    def on_earth(self):
+        return round(self._seconds / self._earth_year, 2)
+
     def on_mars(self):
-        planet = self.on_earth() * 1.8808158
-        return planet
+        return round(self._seconds / self._earth_year / 1.8808158, 2)
 
     def on_jupiter(self):
-        planet = self.on_earth() * 11.862615
-        return planet
+        return round(self._seconds / self._earth_year / 11.862615, 2)
 
     def on_saturn(self):
-        planet = self.on_earth() * 29.447498
-        return planet
+        return round(self._seconds / self._earth_year / 29.447498, 2)
 
     def on_uranus(self):
-        planet = self.on_earth() * 84.016846
-        return planet
+        return round(self._seconds / self._earth_year / 84.016846, 2)
 
     def on_neptune(self):
-        planet = self.on_earth() * 164.79132
-        return planet
-
-
-obj = SpaceAge(1e6)
-print (obj.on_earth())
-print (obj.on_mercury())
+        return round(self._seconds / self._earth_year / 164.79132, 2)
