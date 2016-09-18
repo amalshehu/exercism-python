@@ -4,6 +4,8 @@
 #  Programmer: Amal Shehu
 #  Course:     Exercism
 #  Date:       Sunday 18 September 2016, 05:25 PM
+import itertools
+
 
 square = [x for x in range(1, 65)]
 grains = [2 ** x for x in range(0, 65)]
@@ -17,12 +19,11 @@ def on_square(num):
 
 
 def total_after(num):
-    total = 0
-    for key, value in board.iteritems():
-        if key == num:
-            total += value
-    return total
+    for k, v in board.iteritems():
+        if k == num:
+            total_after = sum(map(board.get, itertools.takewhile(lambda key: key != v, board)))
+    return total_after
 
-
-print (total_after(10))
-print(on_square(10))
+print (board)
+print (total_after(1))
+print(on_square(1))
