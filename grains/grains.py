@@ -4,7 +4,6 @@
 #  Programmer: Amal Shehu
 #  Course:     Exercism
 #  Date:       Sunday 18 September 2016, 05:25 PM
-import itertools
 
 
 square = [x for x in range(1, 65)]
@@ -19,14 +18,7 @@ def on_square(num):
 
 
 def total_after(num):
-    if num == 1:
-        return 1
-    else:
-        for k, v in board.iteritems():
-            if k == num:
-                total_after = sum(map(board.get, itertools.takewhile(lambda key: key != v, board)))
-    return total_after
-
-print (board)
-print (total_after(1))
-print(on_square(1))
+    total = 0
+    for i in range(1, num+1):
+        total += on_square(i)
+    return total
