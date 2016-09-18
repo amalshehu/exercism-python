@@ -9,6 +9,8 @@
 def Luhn(card_number):
 
     digits = digits_of(card_number)
-    
+    odd = digits[-1::-2]
+    even = digits[-2::-2]
+
 def checksum(card_number):
     return luhn(card_number)
