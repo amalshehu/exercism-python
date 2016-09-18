@@ -15,4 +15,14 @@ def on_square(num):
         if k == num:
             return v
 
+
+def total_after(num):
+    total = 0
+    for key, value in board.iteritems():
+        if key == num:
+            total += value
+    return total
+
+
+print (total_after(10))
 print(on_square(10))
