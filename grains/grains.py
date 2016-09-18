@@ -5,9 +5,8 @@
 #  Course:     Exercism
 #  Date:       Sunday 18 September 2016, 05:25 PM
 
-board = [x for x in range(1, 65)]
-grains = [x*2 for x in range(1, 65)]
+square = [x for x in range(1, 65)]
+grains = [2 ** x for x in range(0, 65)]
 
-def on_square():
-    for x in range(1, 65):
-        board.append(x)
+board = zip(square, grains)
+print (board)
