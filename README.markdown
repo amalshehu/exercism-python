@@ -7,7 +7,7 @@
 ###### Want to be a serious programmer? Try it...
 
 
-![Progress](http://progressed.io/bar/41?title=Progress)
+![Progress](http://progressed.io/bar/43?title=Progress)
 ##### General status of exercism problems.
 
 | Problem Name                        | Status                                    | Language    | Level    |  Date            |
@@ -37,4 +37,5 @@
 | Kindergarten Garden                 | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 10,2016 |
 | Grade School                        | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 13,2016 |
 | Roman Numerals                      | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 17,2016 |
-| Space Age                           | ![Progress](http://progressed.io/bar/10)  | Python      | Low      |September 17,2016 |
+| Space Age                           | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 17,2016 |
+| Grains                              | ![Progress](http://progressed.io/bar/10)  | Python      | Low      |September 18,2016 |
