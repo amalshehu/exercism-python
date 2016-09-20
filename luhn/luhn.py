@@ -11,5 +11,10 @@ class Luhn(object):
         self.card_number = card_number
 
     def addends(self):
-        luhn_function = lambda x: (2 * x - 9) if (x > 4) else (2 * x)
-        
+        def luhn_function(x): return (2 * x - 9) if (x > 4) else (2 * x)
+        prev_digits = [item for item in str(self.card_number)]
+
+        return int(prev_digits)
+
+cdn = Luhn(1212)
+print (cdn.addends())
