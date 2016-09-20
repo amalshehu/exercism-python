@@ -12,9 +12,20 @@ class Luhn(object):
 
     def addends(self):
         def luhn_function(num): return (2 * num - 9) if (num > 4) else (2 * num)
-        prev_digits = [item for item in str(self.card_number)]
+        prev_digits = [int(item) for item in str(self.card_number)]
         for index, num in enumerate(prev_digits, start=len(prev_digits) % 2):
             if (index % 2 == 0):
                 return luhn_function(num)
             else:
                 return num
+
+        def checksum(self):
+            return sum(self.addends())
+
+        def is_valid(self):
+            return self.checksum() % 10 == 0
+
+        @staticmethod
+        def create(num):
+            chk = (10 - Luhn(num * 10).checksum()) % 10
+            return 10 * num + chk
