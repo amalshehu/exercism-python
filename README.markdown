@@ -39,4 +39,5 @@
 | Roman Numerals                      | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 17,2016 |
 | Space Age                           | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 17,2016 |
 | Grains                              | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 18,2016 |
-| Luhn                                | ![Progress](http://progressed.io/bar/20)  | Python      | Low      |September 18,2016 |
+| Luhn                                | ![Progress](http://progressed.io/bar/83)  | Python      | High     |September 18,2016 |
+| Etl                                 | ![Progress](http://progressed.io/bar/20)  | Python      | ---      |September 21,2016 |
