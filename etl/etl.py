@@ -7,7 +7,7 @@
 
 def transform(words):
     new_words = dict()
-    for point, letters in words.iteritem():
+    for point, letters in words.items():
         for letter in letters:
             new_words[letter.lower()] = point
     return new_words
