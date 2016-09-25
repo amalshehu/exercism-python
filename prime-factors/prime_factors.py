@@ -6,7 +6,12 @@
 
 
 def prime(number):
-    if number <= 1:
-        return False
+    if number > 1:
+        for num in range(2, number):
+            if number % num == 0:
+                return number % num
+            else:
+                return True
     else:
-        if number % 1 == 0 and number % range(2, number)
+        return False
+        
