@@ -5,12 +5,14 @@
 #  Date:       Monday 26 September 2016, 12:05 AM
 
 
-def prime_factors(number, n=2, factors=None):
-    if factors is None:
+def prime_factors(number):
+        num = 2
         factors = []
-    for num in range(n, number):
-        if (number % num) == 0:
-            factors.append(num)
-            return prime_factors(number // num, num, factors)
-    else:
+        while num <= number:
+            if (number % num) == 0:
+                number /= num
+                factors.append(num)
+            else:
+                num += 1
+
         return factors
