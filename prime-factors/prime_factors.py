@@ -5,13 +5,15 @@
 #  Date:       Monday 26 September 2016, 12:05 AM
 
 
-def prime(number):
+def prime_factors(number):
+    factors = []
     if number > 1:
         for num in range(2, number):
-            if number % num == 0:
-                return number % num
+            if (number % num) == 0:
+                factors.append(num)
+                return factors
+                break
             else:
                 return True
     else:
-        return False
-        
+        return factors
