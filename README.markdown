@@ -7,7 +7,7 @@
 ###### Want to be a serious programmer? Try it...
 
 
-![Progress](http://progressed.io/bar/47?title=Progress)
+![Progress](http://progressed.io/bar/50?title=Progress)
 ##### General status of exercism problems.
 
 | Problem Name                        | Status                                    | Language    | Level    |  Date            |
@@ -41,4 +41,6 @@
 | Grains                              | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 18,2016 |
 | Luhn                                | ![Progress](http://progressed.io/bar/83)  | Python      | High     |September 18,2016 |
 | Etl                                 | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 22,2016 |
-| Prime Factors                       | ![Progress](http://progressed.io/bar/100) | Python      | ----     |September 26,2016 |
+| Prime Factors                       | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 26,2016 |
+| Pig Latin                           | ![Progress](http://progressed.io/bar/76)  | Python      | Low      |September 26,2016 |
+| Simple Cipher                       | ![Progress](http://progressed.io/bar/100) | Python      | ----     |September 26,2016 |
