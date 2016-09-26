@@ -16,3 +16,12 @@ class Cipher():
         elif not key.isalpha() or not key.islower():
             raise ValueError('Invalid key')
         self.key = key
+
+    def encode(self, text):
+        cipher = ''
+        for letter in text:
+            char = (ord(letter)+self.key) % 126
+            if char < 32:
+                char += 31
+            cipher += chr(char)
+            return cipher
