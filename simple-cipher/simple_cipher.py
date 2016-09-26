@@ -1,5 +1,5 @@
 #  File:       simple_cipher.py
-#  Purpose:    Compute the prime factors of a given natural number.
+#  Purpose:    Implement a simple shift cipher like Caesar and a more secure substitution cipher
 #  Programmer: Amal Shehu
 #  Course:     Exercism
 #  Date:       Monday 26 September 2016, 02:00 AM
@@ -25,3 +25,12 @@ class Cipher():
                 char += 31
             cipher += chr(char)
             return cipher
+
+    def decode(self, ciph):
+        txt = ''
+        for item in ciph:
+            t = (ord(item)-self.key) % 126
+        if t < 32:
+            t += 95
+        txt += chr(t)
+        return txt
