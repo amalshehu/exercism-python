@@ -1,3 +1,9 @@
+#  File:       simple_cipher.py
+#  Purpose:    Implement a simple shift cipher like Caesar and a more secure substitution cipher
+#  Programmer: Amal Shehu
+#  Course:     Exercism
+#  Date:       Monday 26 September 2016, 02:00 AM
+
 import random
 from string import ascii_lowercase
 
