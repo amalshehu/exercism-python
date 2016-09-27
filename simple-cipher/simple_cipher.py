@@ -11,26 +11,29 @@ from string import ascii_lowercase
 class Cipher():
     """Generate a key for Cipher if not provided."""
     def __init__(self, key=None):
+        self.letters = ascii_lowercase
         if not key:
-            key = ''.join(random.SystemRandom().choice(ascii_lowercase) for _ in range(100))
+            key = ''.join(random.SystemRandom().choice(ascii_lowercase) for _ in range(150))
         elif not key.isalpha() or not key.islower():
             raise ValueError('Invalid key')
         self.key = key
 
     def encode(self, text):
-        cipher = ''
-        for letter in text:
-            char = (ord(letter)+self.key) % 126
-            if char < 32:
-                char += 31
-            cipher += chr(char)
+            while len(key) < len(text):
+                key += self.key
+            cipher = ""
+            for i in range(len(text)):
+                letter = text.lower()[i]
+                if letter in self.letters:
+                    cipher += self.letters[(self.letters.index(letter)+self.letters.index(key[i]))%26]
             return cipher
 
     def decode(self, ciph):
-        txt = ''
-        for item in ciph:
-            t = (ord(item)-self.key) % 126
-        if t < 32:
-            t += 95
-        txt += chr(t)
+        while len(key) < len(ciph):
+            key += self.key
+        txt = ""
+        for i in range(len(ciph)):
+            letter = ciph.lower()[i]
+            if letter in self.letters:
+                txt += self.letters[(self.letters.index(letter)-self.letters.index(key[i]))%26]
         return txt
