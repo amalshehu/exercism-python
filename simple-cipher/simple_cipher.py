@@ -19,6 +19,7 @@ class Cipher():
         self.key = key
 
     def encode(self, text):
+            key = self.key
             while len(key) < len(text):
                 key += self.key
             cipher = ""
@@ -29,6 +30,7 @@ class Cipher():
             return cipher
 
     def decode(self, ciph):
+        key = self.key
         while len(key) < len(ciph):
             key += self.key
         txt = ""
@@ -37,3 +39,15 @@ class Cipher():
             if letter in self.letters:
                 txt += self.letters[(self.letters.index(letter)-self.letters.index(key[i]))%26]
         return txt
+
+class Caesar():
+    def __init__(self):
+        self.letters = ascii_lowercase
+
+    def encode(self, text):
+        return ''.join([self.letters[(self.letters.index(letter)+3) % 26] \
+                for letter in text.lower() if letter in self.letters])
+
+    def decode(self, ciph):
+        return ''.join([self.letters[(self.letters.index(letter)-3)%26] \
+                for letter in ciph.lower() if letter in self.letters])
