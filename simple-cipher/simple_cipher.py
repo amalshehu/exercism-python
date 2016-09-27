@@ -1,17 +1,13 @@
-#  File:       simple_cipher.py
-#  Purpose:    Implement a simple shift cipher like Caesar and a more secure substitution cipher
-#  Programmer: Amal Shehu
-#  Course:     Exercism
-#  Date:       Monday 26 September 2016, 02:00 AM
-
 import random
 from string import ascii_lowercase
+
+letters = ascii_lowercase
 
 
 class Cipher():
     """Generate a key for Cipher if not provided."""
     def __init__(self, key=None):
-        self.letters = ascii_lowercase
+
         if not key:
             key = ''.join(random.SystemRandom().choice(ascii_lowercase) for _ in range(150))
         elif not key.isalpha() or not key.islower():
@@ -25,8 +21,8 @@ class Cipher():
             cipher = ""
             for i in range(len(text)):
                 letter = text.lower()[i]
-                if letter in self.letters:
-                    cipher += self.letters[(self.letters.index(letter)+self.letters.index(key[i]))%26]
+                if letter in letters:
+                    cipher += letters[(letters.index(letter)+letters.index(key[i])) % 26]
             return cipher
 
     def decode(self, ciph):
@@ -36,18 +32,17 @@ class Cipher():
         txt = ""
         for i in range(len(ciph)):
             letter = ciph.lower()[i]
-            if letter in self.letters:
-                txt += self.letters[(self.letters.index(letter)-self.letters.index(key[i]))%26]
+            if letter in letters:
+                txt += letters[(letters.index(letter)-letters.index(key[i])) % 26]
         return txt
 
+
 class Caesar():
-    def __init__(self):
-        self.letters = ascii_lowercase
 
     def encode(self, text):
-        return ''.join([self.letters[(self.letters.index(letter)+3) % 26] \
-                for letter in text.lower() if letter in self.letters])
+        return ''.join([letters[(letters.index(letter)+3) % 26] \
+                for letter in text.lower() if letter in letters])
 
     def decode(self, ciph):
-        return ''.join([self.letters[(self.letters.index(letter)-3)%26] \
-                for letter in ciph.lower() if letter in self.letters])
+        return ''.join([letters[(letters.index(letter)-3) % 26] \
+                for letter in ciph.lower() if letter in letters])
