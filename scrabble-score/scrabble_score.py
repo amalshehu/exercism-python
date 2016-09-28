@@ -13,3 +13,13 @@ score_table = {
     'u': 1, 'v': 4, 'w': 4, 'x': 8, 'y': 4,
     'z': 10
 }
+
+
+def score(word):
+    SCORE = 0
+    if not word.isalpha():
+        return 0
+    else:
+        for letter in word.lower():
+            SCORE += score_table[letter]
+        return SCORE
