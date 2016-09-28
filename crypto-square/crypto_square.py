@@ -5,8 +5,12 @@
 #  Date:       Tuesday 28 September 2016, 03:27 PM
 
 
-def crypto(message):
-    normalized = ''.join(i for i in message.lower() if i.isalpha())
-    print (normalized)
+def normalize(message):
+    return ''.join(i for i in message.lower() if i.isalpha())
 
-crypto("If man was meant to stay on the ground, god would have given us roots.")
+def text_square(text, num):
+    if len(text) <= num:
+        return [text]
+    return [text[:num]] + text_square(text[num:], num)
+
+    
