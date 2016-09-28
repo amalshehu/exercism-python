@@ -4,6 +4,7 @@
 #  Course:     Exercism
 #  Date:       Tuesday 28 September 2016, 03:27 PM
 from math import ceil, sqrt
+from itertools import izip_longest
 
 
 def normalize(message):
