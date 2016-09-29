@@ -5,10 +5,10 @@
 #  Course:     Exercism
 #  Date:       Thursday 29 September 2016, 10:48 PM
 
-import collections
 
+class CircularBuffer(object):
 
-def CircularBuffer(value):
-    d = collections.deque(maxlen=7)
-    for i in xrange(10):
-        d.append(i)
+    def __init__(self, size_max):
+        self.max = bytearray(size_max)  # bytearray represents a mutable sequence of bytes.
+        self.read_head, self.write_head = 0
+        
