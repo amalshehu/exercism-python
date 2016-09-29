@@ -44,8 +44,9 @@
 | Prime Factors                       | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 26,2016 |
 | Pig Latin                           | ![Progress](http://progressed.io/bar/76)  | Python      | Low      |September 26,2016 |
 | Simple Cipher                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 26,2016 |
-| Scrabble Score                      | ![Progress](http://progressed.io/bar/100) | Python      | Easy     |September 27,2016 |
+| Scrabble Score                      | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 27,2016 |
 | Crypto Square                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 27,2016 |
-| Sublist                             | ![Progress](http://progressed.io/bar/100) | Python      | Easy     |September 28,2016 |
+| Sublist                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 28,2016 |
 | Pythagorean Triplets                | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 29,2016 |
-| Circular Buffer                     | ![Progress](http://progressed.io/bar/27)  | Python      | Medium   |September 29,2016 |
+| Circular Buffer                     | ![Progress](http://progressed.io/bar/65)  | Python      | Medium   |September 29,2016 |
+| Robot Name                          | ![Progress](http://progressed.io/bar/0)   | Python      | ----     |September 30,2016 |
