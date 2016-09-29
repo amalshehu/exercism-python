@@ -9,6 +9,11 @@
 class CircularBuffer(object):
 
     def __init__(self, size_max):
-        self.max = bytearray(size_max)  # bytearray represents a mutable sequence of bytes.
-        self.read_head, self.write_head = 0
-        
+        self.maxBuffer = bytearray(size_max)  # bytearray represents a mutable sequence of bytes.
+        self.readHead, self.writeHead = 0
+
+    def insert_data(self, value):
+        self.maxBuffer[self.writeHead] = value
+
+    def clean(self):
+        self.maxBuffer = bytearray(len(self.maxBuffer))
