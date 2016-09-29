@@ -3,19 +3,25 @@
 #  Programmer: Amal Shehu
 #  Course:     Exercism
 #  Date:       Wednesday 28 September 2016, 09:40 PM
-UNEQUAL = 0
-EQUAL = 1
-SUBLIST = 3
-SUPERLIST = 4
 
+SUBLIST = 0
+SUPERLIST = 1
+EQUAL = 2
+UNEQUAL = 3
+
+def check(_list, sub_list):
+    for i in range(len(_list) + 1 - len(sub_list)):
+        if _list[i:i + len(sub_list)] == sub_list:
+            return True
 
 def check_lists(_list, sub_list):
-    for item in sub_list:
-        if sub_list.count(item) == _list.count(item):
-            return EQUAL
-        elif sub_list.count(item) < _list.count(item):
-            return SUBLIST
-        elif sub_list.count(item) > _list.count(item):
+    if len(_list) > len(sub_list):
+        if check(_list,sub_list):
             return SUPERLIST
-        elif sub_list.count(item) != _list.count(item):
-            return UNEQUAL
+
+    if len(sub_list) > len(_list):
+        if check(sub_list,_list):
+            return SUBLIST
+    if len(_list) == len(sub_list):
+            return EQUAL if _list == sub_list else UNEQUAL
+    return UNEQUAL
