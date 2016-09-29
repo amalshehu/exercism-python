@@ -30,3 +30,11 @@ class CircularBuffer(object):
         if all(self.maxBuffer) and self.writeHead == self.readHead:
             self.readHead = (self.readHead + 1) % len(self.maxBuffer)
         self.writeHead = (self.writeHead + 1) % len(self.maxBuffer)
+
+    def read(self):
+        if not any(self.maxBuffer):
+            raise BufferEmptyException
+        value = chr(self.maxBuffer[self.readHead])
+        self.maxBuffer[self.readHead] = 0
+        self.readHead = (self.readHead + 1) % len(self.maxBuffer)
+        return value
