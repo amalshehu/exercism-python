@@ -4,6 +4,8 @@
 #  Course:     Exercism
 #  Date:       Thursday 29 September 2016, 04:30 PM
 
+from fractions import gcd
+
 
 def triplets_in_range(min_value, max_value):
     triple = set()
@@ -13,3 +15,9 @@ def triplets_in_range(min_value, max_value):
                 if a**2 + b**2 == c**2:
                     triple.update([(a, b, c)])
     return triple
+
+
+def is_coprime(a, b):
+    return gcd(a, b) == 1
+
+    
