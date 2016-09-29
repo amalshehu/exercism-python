@@ -6,9 +6,6 @@
 
 from math import sqrt
 from fractions import gcd
-from itertools import count
-
-
 
 
 def triplets_in_range(min_value, max_value):
@@ -28,6 +25,7 @@ def primitive_triplets(b):
             trips.add((x, y, z))
     return trips
 
+
 def trip(b):
     if b % 4:
         raise ValueError('Invalid Input')
@@ -36,6 +34,7 @@ def trip(b):
         m, redr = divmod(b / 2, n)
         if redr == 0:
             yield(tuple(sorted((m*m - n*n, b, m*m + n*n))))
+
 
 def is_triplet(triplet):
     a, b, c = sorted(triplet)
