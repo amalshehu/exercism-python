@@ -38,3 +38,10 @@ class CircularBuffer(object):
         self.maxBuffer[self.readHead] = 0
         self.readHead = (self.readHead + 1) % len(self.maxBuffer)
         return value
+
+class BufferFullException(Exception):
+    pass
+
+
+class BufferEmptyException(Exception):
+    pass
