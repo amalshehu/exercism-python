@@ -17,3 +17,10 @@ class CircularBuffer(object):
 
     def clean(self):
         self.maxBuffer = bytearray(len(self.maxBuffer))
+
+    def write(self, value):
+        if all(self.maxBuffer):
+            raise FullBufferException
+        self.insert_data(value)
+        self.writeHead = (self.writeHead + 1) % len(self.maxBuffer)
+        
