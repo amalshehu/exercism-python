@@ -5,15 +5,11 @@
 #  Date:       Thursday 29 September 2016, 04:30 PM
 
 
-def pythagorean_triples(n):
-    n = int(n)
-    if n>0:
-        if a in range(1,n-1):
-            if b in range(a+1, n):
-                if c in range(b+1,n+1):
-                    if a*a+b*b==c*c:
-                        print a,b,c
-    else:
-        return "Wrong input"
-
-pythagorean_triples(30)
+def triplets_in_range(min_value, max_value):
+    triple = set()
+    for a in range(min_value, max_value + 1):
+        for b in range(a, max_value + 1):
+            for c in range(b, max_value + 1):
+                if a**2 + b**2 == c**2:
+                    triple.update([(a, b, c)])
+    return triple
