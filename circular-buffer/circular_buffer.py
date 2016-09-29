@@ -10,17 +10,23 @@ class CircularBuffer(object):
 
     def __init__(self, size_max):
         self.maxBuffer = bytearray(size_max)  # bytearray represents a mutable sequence of bytes.
-        self.readHead, self.writeHead = 0
+        self.readHead = 0
+        self.writeHead = 0
 
     def insert_data(self, value):
         self.maxBuffer[self.writeHead] = value
 
-    def clean(self):
+    def clear(self):
         self.maxBuffer = bytearray(len(self.maxBuffer))
 
-    def write(self, value):
+    def write(self, value, Flag=False):
         if all(self.maxBuffer):
-            raise FullBufferException
+            raise BufferFullException
         self.insert_data(value)
         self.writeHead = (self.writeHead + 1) % len(self.maxBuffer)
-        
+
+    def overwrite(self, value):
+        self.insert_data(value)
+        if all(self.maxBuffer) and self.writeHead == self.readHead:
+            self.readHead = (self.readHead + 1) % len(self.maxBuffer)
+        self.writeHead = (self.writeHead + 1) % len(self.maxBuffer)
