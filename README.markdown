@@ -7,7 +7,7 @@
 ###### Want to be a serious programmer? Try it...
 
 
-![Progress](http://progressed.io/bar/60?title=Progress)
+![Progress](http://progressed.io/bar/65?title=Progress)
 ##### General status of exercism problems.
 
 | Problem Name                        | Status                                    | Language    | Level    |  Date            |
@@ -47,6 +47,8 @@
 | Scrabble Score                      | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 27,2016 |
 | Crypto Square                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 27,2016 |
 | Sublist                             | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 28,2016 |
-| Pythagorean Triplets                | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 29,2016 |
-| Circular Buffer                     | ![Progress](http://progressed.io/bar/65)  | Python      | Medium   |September 29,2016 |
-| Robot Name                          | ![Progress](http://progressed.io/bar/0)   | Python      | ----     |September 30,2016 |
+| Pythagorean Triplets                | ![Progress](http://progressed.io/bar/100) | Python      | High     |September 29,2016 |
+| Circular Buffer                     | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 29,2016 |
+| Robot Name                          | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
+| Matrix                              | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
+| Rail Fence Cipher                   | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |September 30,2016 |
