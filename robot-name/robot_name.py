@@ -3,3 +3,14 @@
 #  Programmer: Amal Shehu
 #  Course:     Exercism
 #  Date:       Friday 30 September 2016, 03:00 PM
+
+import string
+import random
+
+
+class Robot():
+    """Robot facory settings"""
+    def __init__(self):
+        self.name = ""
+
+    
