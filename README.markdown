@@ -51,4 +51,5 @@
 | Circular Buffer                     | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 29,2016 |
 | Robot Name                          | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
 | Matrix                              | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
-| Rail Fence Cipher                   | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |September 30,2016 |
+| Rail Fence Cipher                   | ![Progress](http://progressed.io/bar/86)  | Python      | Medium   |September 30,2016 |
+| Nth Prime                           | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |September 30,2016 |
