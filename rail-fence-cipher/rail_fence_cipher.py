@@ -13,7 +13,14 @@ class Rail():
 
     def imaginary_fence(self):
         fence = [[None] * len(self.text) for num in range(self.rail_count)]
-        print (fence)
+        rails = range(self.rail_count - 1) + range(self.rail_count - 1, 0, -1)
+        for n, letter in enumerate(self.text):
+            fence[rails[n % len(rails)]][n] = letter
+
+        return [i for rail in fence for i in rail if i is not None]
+
+        print (rails)
+
 
 f = Rail('helloworld', 3)
 f.imaginary_fence()
