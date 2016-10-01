@@ -15,7 +15,9 @@ class RailFence():
         rails = range(self.rail_count - 1) + range(self.rail_count - 1, 0, -1)
         for n, letter in enumerate(self.text):
             fence[rails[n % len(rails)]][n] = letter
-
+        if 0: # debug
+            for rails in fence:
+                print ''.join('.' if c is None else str(c) for c in rails)
         return [i for rail in fence for i in rail if i is not None]
 
     def encode(self):
@@ -24,8 +26,8 @@ class RailFence():
     def decode(self):
         r = range(len(self.text))
         dec = self.imaginary_fence(r, self.rail_count)
-        return ''.join(self.text[dec.index(i)] for i in r)
+        return ''.join(self.text[dec.index(self.rail_count)] for self.rail_count in r)
 
 
 rail = RailFence('WECRLTEERDSOEEFEAOCAIVDEN', 3)
-print (rail.encode())
+print (rail.decode())
