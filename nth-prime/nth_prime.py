@@ -5,14 +5,22 @@
 #  Date:       Friday 30 September 2016, 11:50 PM
 
 
+def is_prime(num):
+    if num < 2:
+        return False
+    else:
+        for i in range(2, num):
+                if not num % i:
+                    return False
+        return True
+
+
 def nth_prime(limit):
-
-    for num in range(limit):
-        if num > 1:
-            for i in range(2, num):
-                if (num % i) == 0:
-                    break
-            else:
-                print num
-
-print nth_prime(15)
+    prime = []
+    for i in range(10000):
+        if is_prime(i):
+            prime.append(i)
+        if len(prime) == limit:
+            break
+    print prime
+    return prime[limit-1]
