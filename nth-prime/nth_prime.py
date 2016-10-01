@@ -22,5 +22,4 @@ def nth_prime(limit):
             prime.append(i)
         if len(prime) == limit:
             break
-    print prime
     return prime[limit-1]
