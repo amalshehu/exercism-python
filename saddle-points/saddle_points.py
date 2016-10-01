@@ -4,6 +4,7 @@
 #  Course:	 Exercism
 #  Date:	   Saturday 1 October 2016, 09:40 PM
 
+
 def saddle_points(matrix):
     if any(len(row) != len(matrix[0]) for row in matrix):
         raise ValueError("Invalid Matrix Dimension")
