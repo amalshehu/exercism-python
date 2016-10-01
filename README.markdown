@@ -42,7 +42,7 @@
 | Luhn                                | ![Progress](http://progressed.io/bar/83)  | Python      | High     |September 18,2016 |
 | Etl                                 | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 22,2016 |
 | Prime Factors                       | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 26,2016 |
-| Pig Latin                           | ![Progress](http://progressed.io/bar/76)  | Python      | Low      |September 26,2016 |
+| Pig Latin                           | ![Progress](http://progressed.io/bar/77)  | Python      | Low      |September 26,2016 |
 | Simple Cipher                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 26,2016 |
 | Scrabble Score                      | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 27,2016 |
 | Crypto Square                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |September 27,2016 |
@@ -52,4 +52,5 @@
 | Robot Name                          | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
 | Matrix                              | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
 | Rail Fence Cipher                   | ![Progress](http://progressed.io/bar/86)  | Python      | Medium   |September 30,2016 |
-| Nth Prime                           | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |September 30,2016 |
+| Nth Prime                           | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
+| Saddle Points                       | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |October    1,2016 |
