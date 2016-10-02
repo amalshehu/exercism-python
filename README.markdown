@@ -55,4 +55,5 @@
 | Nth Prime                           | ![Progress](http://progressed.io/bar/100) | Python      | Low      |September 30,2016 |
 | Saddle Points                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |October    1,2016 |
 | Beer Song                           | ![Progress](http://progressed.io/bar/92)  | Python      | Low      |October    2,2016 |
-| Perfect Numbers                     | ![Progress](http://progressed.io/bar/10)  | Python      | ---      |October    2,2016 |
+| Perfect Numbers                     | ![Progress](http://progressed.io/bar/100) | Python      | Low      |October    2,2016 |
+| Secret Handshake                    | ![Progress](http://progressed.io/bar/10)  | Python      | ---      |October    3,2016 |
