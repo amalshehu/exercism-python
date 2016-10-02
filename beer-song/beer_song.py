@@ -10,6 +10,8 @@ def beer_song():
     for beer_count in range(99, 0, -1):
         if beer_count > 1:
             print beer_count, "bottles of beer on the wall,", beer_count, "bottles of beer."
+            current_count = beer_count - 1
+            print "Take one down, pass it around,", current_count, "bottles of beer on the wall."
             if beer_count > 2:
                 suffix = str(beer_count - 1) + " bottles of beer on the wall."
             else:
