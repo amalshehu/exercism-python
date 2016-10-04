@@ -4,3 +4,6 @@
 #  Programmer : Amal Shehu
 #  Course     :	Exercism
 #  Date       :	Monday 3 October 2016, 12:50 AM
+
+def handshake(num):
+    return num
