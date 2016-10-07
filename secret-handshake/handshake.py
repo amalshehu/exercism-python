@@ -7,6 +7,10 @@
 
 
 def handshake(num):
+    if len(converter(num)) > 6:
+        raise AssertionError
+
+
     return num
 
 
@@ -15,3 +19,17 @@ def converter(num):
         return ''
     else:
         return converter(num/2) + str(num % 2)
+
+
+def bin_converter(inp):
+    r = 0
+    for character in inp:
+        if character == '0':
+            r = r * 2
+        elif character == '1':
+            r = r * 2 + 1
+        else:
+            raise BinaryError()
+    return r
+
+print (bin_converter('1000'))
