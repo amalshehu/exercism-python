@@ -57,3 +57,11 @@
 | Beer Song                           | ![Progress](http://progressed.io/bar/92)  | Python      | Low      |October    2,2016 |
 | Perfect Numbers                     | ![Progress](http://progressed.io/bar/100) | Python      | Low      |October    2,2016 |
 | Secret Handshake                    | ![Progress](http://progressed.io/bar/10)  | Python      | ---      |October    3,2016 |
+
+
+
+
+
+## Licence
+##### The MIT License (MIT) See LICENSE
+Copyright (c) 2016, Amal Shehu
