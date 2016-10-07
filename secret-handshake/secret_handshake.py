@@ -10,30 +10,20 @@ actions = {1: 'wink',
            4: 'close your eyes',
            8: 'jump'
            }
+reverse_actions = dict(zip(actions.values(), actions.keys()))
+print(actions)
+print (reverse_actions)
 
 
 def handshake(num):
-    if len(converter(num)) > 6:
-        raise AssertionError
-    return num
-
-
-def converter(num):
-    if num == 0:
-        return ''
-    else:
-        return converter(num/2) + str(num % 2)
-
-
-def bin_converter(inp):
-    r = 0
-    for character in inp:
-        if character == '0':
-            r = r * 2
-        elif character == '1':
-            r = r * 2 + 1
-        else:
-            raise BinaryError()
-    return r
-
-print (actions)
+    if type(num) == str:
+        try:
+            num = int(num, 2)
+        except ValueError:
+            return []
+    if num <= 0:
+        return []
+    secret = [actions[2**i] for i in range(4) if num & 2**i]
+    if num & 2**4:
+        secret = secret[::-1]
+    return secret
