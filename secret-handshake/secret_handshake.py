@@ -10,10 +10,7 @@ actions = {1: 'wink',
            4: 'close your eyes',
            8: 'jump'
            }
-reverse_actions = dict(zip(actions.values(), actions.keys()))
-print(actions)
-print (reverse_actions)
-
+rev_action = dict(zip(actions.values(), actions.keys()))
 
 def handshake(num):
     if type(num) == str:
@@ -26,4 +23,12 @@ def handshake(num):
     secret = [actions[2**i] for i in range(4) if num & 2**i]
     if num & 2**4:
         secret = secret[::-1]
+
     return secret
+
+
+def code(actions):
+    num = 0
+    encoded = [0]
+    back = False
+    
