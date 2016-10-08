@@ -7,22 +7,30 @@ import inflect
 p = inflect.engine()
 word_form = p.number_to_words(5)
 ordinal_word = p.ordinal(word_form)
-print (ordinal_word)
 
-gifts = enumerate {"Drummers Drumming", 'Pipers Piping', 'Lords-a-Leaping',
-         'Ladies Dancing', 'Maids-a-Milking','Swans-a-Swimming',
-         'Geese-a-Laying','Gold Rings', 'Calling Birds',' French Hens',
-         'Turtle Doves', 'Partridge'}
-gifts.reverse()
-print (gifts)
+gift = ["Drummers Drumming", 'Pipers Piping', 'Lords-a-Leaping',
+        'adies Dancing', 'Maids-a-Milking','Swans-a-Swimming',
+        'Geese-a-Laying','Gold Rings', 'Calling Birds',' French Hens',
+        'Turtle Doves', 'Partridge']
+gift_key = [x for x in range(1, 13)]
+gifts = dict(zip(gift_key, reversed(gift)))
 
 def sing():
     pass
 
 
 def verse(v):
-    pass
-
+    p = inflect.engine()
+    day = p.number_to_words(v)
+    day_count = p.ordinal(day)
+    if v <= 1:
+            print "On the %s day of Christmas my true love gave to me, \
+a %s in a Pear Tree." % (day_count, gifts[v])
+    if v > 1:
+        print "On the %s day of Christmas my true love gave to me, \
+a %s in a Pear Tree." % (day_count, gifts[v])
 
 def verses(v1, v2):
     pass
+
+verse(2)
