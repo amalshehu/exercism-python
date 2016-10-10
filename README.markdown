@@ -7,7 +7,7 @@
 ###### Want to be a serious programmer? Try it...
 
 
-![Progress](http://progressed.io/bar/74?title=Progress)
+![Progress](http://progressed.io/bar/76?title=Progress)
 ##### General status of exercism problems.
 
 | Problem Name                        | Status                                    | Language    | Level    |  Date            |
@@ -56,7 +56,8 @@
 | Saddle Points                       | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |October    1,2016 |
 | Beer Song                           | ![Progress](http://progressed.io/bar/92)  | Python      | Low      |October    2,2016 |
 | Perfect Numbers                     | ![Progress](http://progressed.io/bar/100) | Python      | Low      |October    2,2016 |
-| Secret Handshake                    | ![Progress](http://progressed.io/bar/10)  | Python      | ---      |October    3,2016 |
+| Secret Handshake                    | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |October    3,2016 |
+| Twelve Days                         | ![Progress](http://progressed.io/bar/65)  | Python      | Medium   |October    8,2016 |
 
 
 
