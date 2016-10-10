@@ -27,10 +27,9 @@ def verse(v):
             print "On the %s day of Christmas my true love gave to me, \
 a %s in a Pear Tree." % (day_count, gifts[v])
     if v > 1:
+        gift
         print "On the %s day of Christmas my true love gave to me, \
-a %s in a Pear Tree." % (day_count, gifts[v])
+%s %s,and a %s in a Pear Tree." % (day_count, day, gifts[v], gifts[1])
 
 def verses(v1, v2):
     pass
-
-verse(2)
