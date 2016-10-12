@@ -57,7 +57,7 @@
 | Beer Song                           | ![Progress](http://progressed.io/bar/92)  | Python      | Low      |October    2,2016 |
 | Perfect Numbers                     | ![Progress](http://progressed.io/bar/100) | Python      | Low      |October    2,2016 |
 | Secret Handshake                    | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |October    3,2016 |
-| Twelve Days                         | ![Progress](http://progressed.io/bar/65)  | Python      | Medium   |October    8,2016 |
+| Twelve Days                         | ![Progress](http://progressed.io/bar/70)  | Python      | Medium   |October    8,2016 |
 
 
 
