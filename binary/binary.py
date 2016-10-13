@@ -4,12 +4,8 @@
 #  Course     :	Exercism
 #  Date       :	Saturday 12 October 2016, 03:02 PM
 
-def binary(bin_value):
+def parse_binary(bin_value):
     sum_ = 0
-    num = list(bin_value)
-    l = len(bin_value - 1)
-    for i in num:
-        sum_ += int(i) * (2 ** l)
+    for i in bin_value:
+        sum_ = sum_ * 2 + int(i)
     return sum_
-
-print binary('11011')
