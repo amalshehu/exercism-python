@@ -59,7 +59,7 @@
 | Secret Handshake                    | ![Progress](http://progressed.io/bar/100) | Python      | Medium   |October    3,2016 |
 | Twelve Days                         | ![Progress](http://progressed.io/bar/100) | Python      | Low      |October    8,2016 |
 | Binary                              | ![Progress](http://progressed.io/bar/100) | Python      | Low      |October    8,2016 |
-| Palindrome Products                 | ![Progress](http://progressed.io/bar/10)  | Python      | ----     |October   13,2016 |
+| Palindrome Products                 | ![Progress](http://progressed.io/bar/30)  | Python      | ----     |October   13,2016 |
 
 
 
